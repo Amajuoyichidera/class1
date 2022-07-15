@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   padding: 20px;
+   background-color: aliceblue;
+}
+.mycon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.con1 {
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+.con2 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 95px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ist {
+    background-color: red;
+    color: white;
+}
+.sec {
+    background-color: black;
+    color: white;
+}
+.hide {
+    display: none;
+}
